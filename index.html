@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down My birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-5xl text-center pt-32 pb-10">BirthDay CountDown</h1>
+    <!-- <div class="flex justify-center pb-8">
+        <div class="mb-3 xl:w-96">
+            <input type="text" class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+            " id="inputDate" placeholder="Enter date in dd mm yyyy" />
+        </div>
+        <div class="px-5">
+            <button onclick="getData();" type="button"
+                class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Submit</button>
+        </div>
+    </div> -->
+    <div class="countdown-container justify-center">
+        <!-- <div class="months-c text-center px-6">
+            <p class="big-text" id="months">0</p>
+            <span>Months</span>
+        </div> -->
+        <div class="days-c text-center px-6">
+            <p class="big-text" id="days">0</p>
+            <span>days</span>
+        </div>
+        <div class="hours-c text-center px-6">
+            <p class="big-text" id="hours">0</p>
+            <span>hours</span>
+        </div>
+        <div class="minutes-c text-center px-6">
+            <p class="big-text" id="minutes">0</p>
+            <span>minutes</span>
+        </div>
+        <div class="seconds-c text-center px-6">
+            <p class="big-text" id="seconds">0</p>
+            <span>seconds</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
